@@ -1,0 +1,27 @@
+\documentclass{article}
+
+\usepackage[backend=biber]{biblatex}
+\addbibresource{bib.bib}
+
+\begin{document}
+
+\section{First} \label{sec:first}
+
+Hello World! \cite{demo}
+
+A second Hello World!!! Refering to \ref{sec:third} on page \pageref{sec:third}
+
+Text
+
+%\nocite{*}
+\printbibliography
+
+\section{Second} \label{sec:second}
+
+Reference to \ref{sec:first} First on page \pageref{sec:first}.
+
+\section{Third} \label{sec:third}
+
+Reference to \ref{sec:first} First on page \pageref{sec:first}.
+
+\end{document}
