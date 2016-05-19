@@ -1,4 +1,10 @@
 
+# =============================================================================
+# Copyright (c) 2016 Eivind Storm Aarnæs
+# Licensed under the MIT license
+#     (see https://github.com/eistaa/make-latex/blob/master/LICENSE)
+# =============================================================================
+
 include conf.mk
 
 ## -------------------------------------
